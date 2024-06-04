@@ -13,8 +13,10 @@
 <%@include file="templates/header.jsp" %>     
 <!DOCTYPE html>
 <html lang="en">  
-    <%GestorCategoria conexion = new GestorCategoria();
-        List<Categoria> categorias = conexion.listarCategorias();
+    
+    <%
+     GestorCategoria conexion = new GestorCategoria();
+     List<Categoria> categorias = conexion.listarCategorias();
     %>
     <h1>.</h1>
     <h1></h1>
